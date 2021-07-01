@@ -1,0 +1,62 @@
+server:
+  port: 80
+application:
+  domain: bitbybitfitness.net
+  name: 'Bit by Bit Fitness Online Store'
+  logo: bxb_logo.png
+  favicon: favicon_v2.ico
+  numberOfRandomFakeUsers: 0
+  showChallengeSolvedNotifications: false
+  showCtfFlagsInNotifications: false
+  showChallengeHints: false
+  showVersionNumber: false
+  theme: cerulean # Options: cerulean  cosmo  cyborg  darkly  flatly lumen  paper  readable  sandstone  simplex  slate  spacelab  superhero  united  yeti
+  gitHubRibbon: none # Options: darkblue  gray  green  orange  red  white  none
+  twitterUrl: 'https://twitter.com/bxbfitness'
+  facebookUrl: 'https://www.facebook.com/bxbfitness'
+  planetOverlayMap: orangemap2k.jpg
+  planetName: Orangeuze
+  recyclePage:
+    topProductImage: fruit_press.jpg
+    bottomProductImage: apple_pressings.jpg
+  altcoinName: BxBcoin
+  cookieConsent:
+    backgroundColor: '#eb6c44'
+    textColor: '#ffffff'
+    buttonColor: '#f5d948'
+    buttonTextColor: '#000000'
+    message: 'This website uses cookies.'
+    dismissText: 'Dismiss'
+    linkText: ''
+    linkUrl: ''
+products:
+  -
+    name: 'Fitness Tracker'
+    price: 149.99
+    description: 'Our flagship product.'
+    image: fitness_tracker.png
+    reviews: # Options 'author': admin, jim, bender, ciso, support, morty, mc.safesearch
+      - { text: 'A great deal!', author: admin }
+  -
+    name: 'Treadmill'
+    description: 'Runs quiet and has a durable frame and variable speed control.'
+    price: 2499.99
+    image: treadmill.png
+  -
+    name: 'Medicine Ball'
+    description: 'Non-slip texture enhances grip.'
+    price: 39.99
+    image: medicine_ball.jpg
+    urlForProductTamperingChallenge: 'http://bitbybitfitness.net'
+  -
+    name: 'Dumbbells'
+    description: 'Two 3 lb metal weights.'
+    price: 8.99
+    image: dumbbell.png
+    useForChristmasSpecialChallenge: true
+  -
+    name: 'Healthy Meal Plan'
+    description: 'One month of healthy meals delivered to your door!'
+    price: 299.99
+    image: healthy_meal.jpg
+    fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
